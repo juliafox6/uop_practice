@@ -1,0 +1,6 @@
+C:\Users\julia\source\repos\PracticeDLL\PracticeDLL\bin\Debug\PracticeDLL.dll
+C:\Users\julia\source\repos\PracticeDLL\PracticeDLL\bin\Debug\PracticeDLL.pdb
+C:\Users\julia\source\repos\PracticeDLL\PracticeDLL\obj\Debug\PracticeDLL.csproj.AssemblyReference.cache
+C:\Users\julia\source\repos\PracticeDLL\PracticeDLL\obj\Debug\PracticeDLL.csproj.CoreCompileInputs.cache
+C:\Users\julia\source\repos\PracticeDLL\PracticeDLL\obj\Debug\PracticeDLL.dll
+C:\Users\julia\source\repos\PracticeDLL\PracticeDLL\obj\Debug\PracticeDLL.pdb

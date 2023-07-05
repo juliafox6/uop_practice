@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E783A693-71A9-443B-A24D-B2092341EFC4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UOP_Task1</RootNamespace>
+    <AssemblyName>UOP_Task1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PracticeDLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PracticeDLL\PracticeDLL\bin\Debug\PracticeDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Task1_IndTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task1_IndTask.Designer.cs">
+      <DependentUpon>Task1_IndTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task1_Intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task1_Intro.Designer.cs">
+      <DependentUpon>Task1_Intro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Task1_Solve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task1_Solve.Designer.cs">
+      <DependentUpon>Task1_Solve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task2_IndTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task2_IndTask.Designer.cs">
+      <DependentUpon>Task2_IndTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task2_Solve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task2_Solve.Designer.cs">
+      <DependentUpon>Task2_Solve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task3_IndTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task3_IndTask.Designer.cs">
+      <DependentUpon>Task3_IndTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Task3_Solve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task3_Solve.Designer.cs">
+      <DependentUpon>Task3_Solve.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Task1_IndTask.resx">
+      <DependentUpon>Task1_IndTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task1_Intro.resx">
+      <DependentUpon>Task1_Intro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task1_Solve.resx">
+      <DependentUpon>Task1_Solve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task2_IndTask.resx">
+      <DependentUpon>Task2_IndTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task2_Solve.resx">
+      <DependentUpon>Task2_Solve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task3_IndTask.resx">
+      <DependentUpon>Task3_IndTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task3_Solve.resx">
+      <DependentUpon>Task3_Solve.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2023-06-24 011710.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\котикучится2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\котикучится21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2023-06-24 173501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Снимок экрана 2023-06-28 023356.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
